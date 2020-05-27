@@ -231,7 +231,7 @@
     <maven.compiler.target>1.8</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <docLabel>Site Documentation</docLabel>
-    <projectDir />
+    <projectDir/>
     <commonsLoggingVersion>1.2</commonsLoggingVersion>
     <javax.persistence>2.2.1</javax.persistence>
     <osgi.api.version>6.0.0</osgi.api.version>
@@ -242,7 +242,7 @@
     <mockitoVersion>2.25.1</mockitoVersion>
     <argLine>-Xms256m -Xmx1024m</argLine>
     <javaTargetVersion>1.8</javaTargetVersion>
-    <module.name />
+    <module.name/>
   </properties>
   <pluginRepositories>
     <pluginRepository>
@@ -801,7 +801,7 @@
       <dependency>
         <groupId>org.liquibase</groupId>
         <artifactId>liquibase-core</artifactId>
-        <version>3.5.3</version>
+        <version>3.8.9</version>
       </dependency>
       <dependency>
         <groupId>net.javacrumbs.json-unit</groupId>
@@ -957,7 +957,7 @@
             <maxmem>1024</maxmem>
             <compilerArguments>
               <Xmaxwarns>10000</Xmaxwarns>
-              <Xlint />
+              <Xlint/>
             </compilerArguments>
             <compilerId>javac-with-errorprone</compilerId>
             <forceJavacCompilerUse>true</forceJavacCompilerUse>
@@ -1229,7 +1229,7 @@
             </goals>
             <configuration>
               <skip>true</skip>
-              <resourceBundles />
+              <resourceBundles/>
             </configuration>
           </execution>
         </executions>
