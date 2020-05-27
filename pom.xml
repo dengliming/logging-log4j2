@@ -187,7 +187,7 @@
     <slf4jVersion>1.7.25</slf4jVersion>
     <logbackVersion>1.2.3</logbackVersion>
     <jackson1Version>1.9.13</jackson1Version>
-    <jackson2Version>2.10.1</jackson2Version>
+    <jackson2Version>2.11.0</jackson2Version>
     <springVersion>3.2.18.RELEASE</springVersion>
     <kubernetes-client.version>4.6.1</kubernetes-client.version>
     <flumeVersion>1.9.0</flumeVersion>
@@ -231,7 +231,7 @@
     <maven.compiler.target>1.8</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <docLabel>Site Documentation</docLabel>
-    <projectDir />
+    <projectDir/>
     <commonsLoggingVersion>1.2</commonsLoggingVersion>
     <javax.persistence>2.2.1</javax.persistence>
     <osgi.api.version>6.0.0</osgi.api.version>
@@ -242,7 +242,7 @@
     <mockitoVersion>2.25.1</mockitoVersion>
     <argLine>-Xms256m -Xmx1024m</argLine>
     <javaTargetVersion>1.8</javaTargetVersion>
-    <module.name />
+    <module.name/>
   </properties>
   <pluginRepositories>
     <pluginRepository>
@@ -957,7 +957,7 @@
             <maxmem>1024</maxmem>
             <compilerArguments>
               <Xmaxwarns>10000</Xmaxwarns>
-              <Xlint />
+              <Xlint/>
             </compilerArguments>
             <compilerId>javac-with-errorprone</compilerId>
             <forceJavacCompilerUse>true</forceJavacCompilerUse>
@@ -1229,7 +1229,7 @@
             </goals>
             <configuration>
               <skip>true</skip>
-              <resourceBundles />
+              <resourceBundles/>
             </configuration>
           </execution>
         </executions>
